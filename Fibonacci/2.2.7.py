@@ -9,13 +9,6 @@ Sample Output:
 5
 '''
 
-# fib_arr = [0,1]
-
-# def fib_last_digit(n):
-#     if n<len(fib_arr):
-#         return fib_arr[n]
-#     fib_arr.append((fib_last_digit(n-1)+fib_last_digit(n-2))%10)
-#     return fib_arr[n]
 def sum(a,b):
     return (a+b)%10
 
